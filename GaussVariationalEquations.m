@@ -28,7 +28,7 @@ options = odeset('RelTol',1e-12,'AbsTol',1e-12);
 fin=y_1(end,:);
 fin = [fin(1),fin(2),rad2deg(fin(3:6))];
 
-fprintf('\t----PART A----\nFinal Orbital Elements after 30 days:\n');
+fprintf('\t----Final Orbital Elements after given time:----\n');
 fprintf('a = %.6f km\n', fin(1));
 fprintf('e = %.6f\n', fin(2));
 fprintf('i = %.6f deg\n', fin(3));
